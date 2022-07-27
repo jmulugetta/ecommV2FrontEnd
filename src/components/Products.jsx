@@ -77,8 +77,8 @@ const Products = () => {
         <label for="cars">Sort:</label>
     <select name="cars" onChange={filly2}>
            <option value="select">Select</option>
-           <option value="low">Low to High</option>
-           <option value="high">High to Low</option>
+           <option value="low">High TO Low</option>
+           <option value="high">Low TO High</option>
     </select>
 
 </FilterContainer>
