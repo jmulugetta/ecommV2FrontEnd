@@ -3,7 +3,7 @@ import { Search, ShoppingCartRounded } from '@material-ui/icons';
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import JLOGO from '../Image/JLOGO.png'
-import { mobile } from '../responsive';
+import { mobile, tablet } from '../responsive';
 
 
 
@@ -63,7 +63,8 @@ const Right = styled.div`
     justify-content: flex-end;
     justify-content: space-between;
     text-decoration: none;
-    ${mobile({flex: 2, justifyContent: "center", marginRight: "40px", flexDirection: "column"})}
+    ${mobile({flex: 2, justifyContent: "center", marginRight: "10px", flexDirection: "column", alignItems: "flex-end"})}
+    ${tablet({flex: 2, justifyContent: "center", marginRight: "10px", flexDirection: "column", alignItems: "flex-end"})}
 `;
 const MenuItem = styled.div`
     font-size: 14px;

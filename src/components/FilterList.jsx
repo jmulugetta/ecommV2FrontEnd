@@ -47,17 +47,18 @@ const FilterList = () => {
             [e.target.name]: value,
         });
     }
-    return (
+    // return (
 
-    <FilterContainer>
-    <Filter><FilterText>Sort Products:</FilterText>
-    <Select onChange={(e)=>setSort(e.target.value)}>
-        <Option value= "newest"> Newest</Option>
-        <Option value = "asc"> High to Low</Option>
-        <Option value= "desc">Low to High</Option>
-    </Select>
-    </Filter>
-</FilterContainer>
-  )
+//     <FilterContainer>
+//     <Filter><FilterText>Sort Products:</FilterText>
+//     <Select onChange={(e)=>setSort(e.target.value)}>
+//         <Option value= "newest"> Newest</Option>
+//         <Option value = "asc"> High to Low</Option>
+//         <Option value= "desc">Low to High</Option>
+//     </Select>
+//     </Filter>
+// </FilterContainer>
+//   )
+// }
 }
 export default FilterList
